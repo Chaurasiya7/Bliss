@@ -1,0 +1,38 @@
+*{
+   padding: 0;
+  
+   box-sizing: border-box;
+}
+body{
+   background-color: aliceblue;
+}
+.img-top{
+   border-radius: 50%;
+   height: 250px;
+   left: 80px;
+   top: -60px;
+   object-fit: cover;
+   width: 250px;
+   position: relative;
+}
+.card-body{
+   margin-top: -5%;
+}
+
+.card{
+   
+   border-radius:0 ;
+   cursor: pointer;
+   margin-top: 100px;
+ 
+}
+.card:hover{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.row{
+   width: 100%;
+   align-items: center;
+ 
+}
+
+
